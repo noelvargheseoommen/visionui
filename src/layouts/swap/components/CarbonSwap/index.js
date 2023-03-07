@@ -7,7 +7,7 @@ import { FaEllipsisH } from 'react-icons/fa';
 import linearGradient from 'assets/theme/functions/linearGradient';
 import CircularProgress from '@mui/material/CircularProgress';
 
-function ReferralTracking() {
+function CarbonSwap() {
 	const { info, gradients } = colors;
 	const { cardContent } = gradients;
 
@@ -22,10 +22,10 @@ function ReferralTracking() {
 					display='flex'
 					alignItems='center'
 					justifyContent='space-beetween'
-					sx={{ width: '200%' }}
+					sx={{ width: '100%' }}
 					mb='40px'>
 					<VuiTypography variant='lg' color='white' mr='auto' fontWeight='bold'>
-						Emission Tracking
+                    swap [carbon]
 					</VuiTypography>
 					<VuiBox
 						display='flex'
@@ -89,7 +89,7 @@ function ReferralTracking() {
 							}}>
 							<VuiBox display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
 								<VuiTypography color='text' variant='button' mb='4px'>
-									Carbon Score
+									swap [carbon]
 								</VuiTypography>
 								<VuiTypography
 									color='white'
@@ -101,7 +101,7 @@ function ReferralTracking() {
 											fontSize: '32px'
 										}
 									})}>
-									69%
+									50%
 								</VuiTypography>
 								<VuiTypography color='text' variant='button'>
 									Remaining
@@ -115,4 +115,4 @@ function ReferralTracking() {
 	);
 }
 
-export default ReferralTracking;
+export default CarbonSwap;

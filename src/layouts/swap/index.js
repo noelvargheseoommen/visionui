@@ -13,7 +13,7 @@ import Footer from "examples/Footer";
 import colors from "assets/theme/base/colors";
 
 // Dashboard layout components
-import cswap from "layouts/swap/components/cswap";
+import CarbonSwap from "layouts/swap/components/CarbonSwap";
 
 // React icons
 
@@ -32,7 +32,7 @@ function Swap() {
         <VuiBox mb={3}>
           <Grid container spacing="18px"justifyContent="center">
             <Grid item xs={12} lg={12} xl={5}>
-              <cswap />
+            <CarbonSwap />
             </Grid>
           </Grid>
         </VuiBox>
